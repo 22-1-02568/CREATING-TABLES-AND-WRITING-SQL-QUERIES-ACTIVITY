@@ -99,6 +99,19 @@ INSERT INTO UserPosts (PostID, PostContent, AuthorID, Visibility) VALUES
 (9, 'Marui Moeka’s book is unputdownable!', 4, TRUE),
 (10, 'Hibiki Natsume’s recipes are back!', 5, TRUE);
 
+-- Insert into Comments Table
+INSERT INTO PostComments (CommentID, CommentText, CommenterID, ParentPostID) VALUES
+(1, 'Eimi Fukada is truly iconic!', 2, 1),
+(2, 'Yamate Ria deserves more attention!', 3, 2),
+(3, 'Yui Tenma’s acting is top-notch.', 4, 3),
+(4, 'MINAMO’s album is on repeat!', 1, 4),
+(5, 'Rei Kamiki’s journey is so motivating.', 5, 5),
+(6, 'Haha, take that break, you deserve it!', 3, 6),
+(7, 'Morishita Kotono’s exhibit blew my mind!', 4, 7),
+(8, 'Mei Washio’s performance gave me chills!', 1, 8),
+(9, 'Marui Moeka’s book kept me up all night!', 2, 9),
+(10, 'Hibiki Natsume’s recipes saved my dinner party!', 4, 10);
+
 -- Insert into CommunityGroups Table
 INSERT INTO CommunityGroups (GroupID, GroupTitle) VALUES
 (1, 'Yellow Hub'),
