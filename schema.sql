@@ -80,7 +80,7 @@ CREATE TABLE CommunityGroupPosts (
 
 -- Insert into Users Table
 INSERT INTO Users (UserID, Username, FirstName, LastName, BirthDate, Password) VALUES
-(1, 'GigaBrain', 'Alfie', 'Palmera', '2000-07-11', 'alfie_password'),
+(1, 'MegaMind', 'Alfie', 'Palmera', '2000-07-11', 'alfie_password'),
 (2, 'RyanGosling', 'John', 'Robert', '2003-06-21', 'john_password'),
 (3, 'Malupiton', 'Mark', 'Galicha', '1997-04-25', 'mark_password'),
 (4, 'TransformerHunter', 'Andrei', 'Pabello', '2000-12-26', 'andrei_password'),
