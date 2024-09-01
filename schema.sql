@@ -80,11 +80,11 @@ CREATE TABLE CommunityGroupPosts (
 
 -- Insert into Users Table
 INSERT INTO Users (UserID, Username, FirstName, LastName, BirthDate, Password) VALUES
-(1, 'MegaMind', 'Alfie', 'Palmera', '2000-07-11', 'alfie_password'),
-(2, 'RyanGosling', 'John', 'Robert', '2003-06-21', 'john_password'),
-(3, 'Malupiton', 'Mark', 'Galicha', '1997-04-25', 'mark_password'),
-(4, 'TransformerHunter', 'Andrei', 'Pabello', '2000-12-26', 'andrei_password'),
-(5, 'JeffreyDahmer', 'Heiroll', 'Magcalas', '2001-08-11', 'heiroll_password');
+(1, 'MegaMind', 'Alfie', 'Palmera', '2000-07-11', 'alfiethemegamind'),
+(2, 'RyanGosling', 'John', 'Robert', '2003-06-21', 'akosiryangosling'),
+(3, 'Malupiton', 'Mark', 'Galicha', '1997-04-25', 'diyataparesoverload'),
+(4, 'TransformerHunter', 'Andrei', 'Pabello', '2000-12-26', 'nahuntingngtransformers'),
+(5, 'JeffreyDahmer', 'Heiroll', 'Magcalas', '2001-08-11', 'manwich');
 
 -- Insert into UserPosts Table
 INSERT INTO UserPosts (PostID, PostContent, AuthorID, Visibility) VALUES
